@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+ <meta name="description" content="Webpage description goes here" />
+ <meta charset="utf-8">
+ <title>Change_me</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="author" content="">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+
+<body>
+ 
+<div class id="container">
+  <p id="minerals">[mineral1,mineral2]</p>
+  <p id="mineral">[mineral3,mineral4]</p>
+ 
+
+</div>
+
+
+<script>
+    function input(){
+        var name= class_name.prompt("enter the name of your class:");
+        var sub=subject_name.prompt("enter the name of the subject:");
+        var time=current_time.prompt("enter the current time:");
+         console.log(name);
+         console.log(sub);
+         console.log(time);
+
+    }
+    input()
+    function beryl(mineral1,mineral2){
+        var gems=[mineral1,mineral2];
+        document.getElementById(mineral).innerHTML =container ;
+    }
+    beryl(jade,emerald)
+    
+    function corundum(mineral3,mineral4,callback){
+        var gem=[mineral3,mineral4]
+        document.getElementById(mineral).innerHTML = container;
+    }
+    corundum(rubbies,supphires,beryl)
+</script>
+
+
+</body>
+</html>
+
